@@ -32,7 +32,7 @@ const App = () => {
       gapi.load("client:auth2", () => {
         gapi.client.getAuthInstance({
           clientId:
-            "142603396678-4fviti62o155c218p40c5d9noc1olaq0.apps.googleusercontent.com",
+            "142603396678-8vhlscq379tdmvm5iue0mh8e3vv8m8rn.apps.googleusercontent.com",
           scope: "profile email",
         });
       });

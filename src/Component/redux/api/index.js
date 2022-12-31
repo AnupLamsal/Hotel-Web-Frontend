@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: "https://hotel-web-back.onrender.com/" });
+const API = axios.create({ baseURL: "https://hotel-web-back.onrender.com" });
 
 API.interceptors.request.use(req => {
   if (localStorage.getItem("profile")) {
